@@ -6,22 +6,29 @@ body{
     color: white;
 }
 main{
+    margin: 100px auto;
     display: flex;
-  width: 70%;
+    width: 70%;
    text-align: center;
    align-items: center;
+}
+.first{
+    width: 40%;
+    margin-right: 50px;
 }
 
 input{
     display: block;
     margin: 10px;
-    padding: 10px 30px;
+    padding: 10px 70px;
 border-radius: 10px;
 border: 1px solid hsl(246, 25%, 77%);
 }
 .second1{
     background-color: white;
     padding-top: 5px;
+    border-radius: 7px;
+    padding: 20px;
 }
 .second button{
     background-color: hsl(248, 32%, 49%);
@@ -29,16 +36,43 @@ border: 1px solid hsl(246, 25%, 77%);
     border: none;
     margin-bottom: 10px;
     border-radius: 10px;
-    padding: 5px 30px;
+    padding: 10px 65px;
 }
 .second1 button{
     background-color:  hsl(154, 59%, 51%);
     color: white;
     border: none;
-    border-radius: 10px;
-    margin: 10px 15px;
+    border-radius: 5px;
+  padding: 7px 95px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.second1 button:hover{
+    opacity: 0.5;
 }
 h6{
     color: hsl(246, 25%, 77%) ;
     margin: 5px 15px 20px 15px ;
+}
+span{
+    color: hsl(0, 100%, 74%);
+}
+button span{
+    color: hsl(246, 25%, 77%);
+}
+.invalid{
+   
+    background-image: url("images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 230px;
+}
+
+input:focus{
+    background-image: none;
+}
+label{
+    display: none;
+    color: hsl(0, 100%, 74%);
+   font-size: 10px;
+   margin-top: -50px;
 }
