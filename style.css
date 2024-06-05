@@ -2,4 +2,43 @@ body{
     padding: 0;
     margin: 0;
     background-image: url("images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%) ;
+    color: white;
+}
+main{
+    display: flex;
+  width: 70%;
+   text-align: center;
+   align-items: center;
+}
+
+input{
+    display: block;
+    margin: 10px;
+    padding: 10px 30px;
+border-radius: 10px;
+border: 1px solid hsl(246, 25%, 77%);
+}
+.second1{
+    background-color: white;
+    padding-top: 5px;
+}
+.second button{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+.second1 button{
+    background-color:  hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 15px;
+}
+h6{
+    color: hsl(246, 25%, 77%) ;
+    margin: 5px 15px 20px 15px ;
 }
