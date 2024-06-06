@@ -60,7 +60,7 @@ span{
 button span{
     color: hsl(246, 25%, 77%);
 }
-.invalid{
+.invalidQ{
    
     background-image: url("images/icon-error.svg");
     background-repeat: no-repeat;
