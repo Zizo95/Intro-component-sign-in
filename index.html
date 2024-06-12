@@ -29,14 +29,14 @@
  <div class="second1">
 
 <form name="myform">
-  <input type="text" placeholder="First Name" name="first-name" class="first-name">
-  <label for="first-name" class="name">First Name cannot be empty</label>  
-  <input type="text" placeholder="Last Name" class="last" name="last-name"> 
-  <label for="last-name" class="lastName">Last Name cannot be empty</label> 
-  <input type="email" placeholder="Email Address" class="email" name="email"> 
-  <label for="email" class="labelEmail">Looks like this is not an email</label>
-  <input type="password" placeholder=" Password" class="password" name="password"> 
-  <label for="password" class="labelPassword">Password cannot be empty</label>
+  <input type="text" placeholder="First Name" name="first-name" class="first-name" autocomplete="on">
+  <p class="name">First Name cannot be empty</p>  
+  <input type="text" placeholder="Last Name" class="last" name="last-name" autocomplete="on"> 
+  <p class="lastName">Last Name cannot be empty</p> 
+  <input type="email" placeholder="Email Address" class="email" name="email" autocomplete="on"> 
+  <p class="labelEmail">Looks like this is not an email</p>
+  <input type="password" placeholder=" Password" class="password" name="password" autocomplete="off"> 
+  <p class="labelPassword">Password cannot be empty</p>
  <br>
  <button class="claim">Claim your free trial</button>
 </form>
