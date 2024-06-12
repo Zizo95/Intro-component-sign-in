@@ -27,16 +27,20 @@
  <div class="second">
   <button>Try it free 7 days <span>then $20/mo. thereafter</span></button> 
  <div class="second1">
-  <input type="text" placeholder="First Name" name="first-name" class="invalid">
-  <label for="first-name">First Name cannot be empty</label>  
-  <input type="text" placeholder="Last Name" class="invalid"> 
-  <label for="first-name">Last Name cannot be empty</label> 
-  <input type="email" placeholder="Email Address" class="invalid"> 
-  <label for="first-name">Looks like this is not an email</label>
-  <input type="password" placeholder=" Password" class="invalid"> 
-  <label for="first-name">Password cannot be empty</label>
+
+<form name="myform">
+  <input type="text" placeholder="First Name" name="first-name" class="first-name">
+  <label for="first-name" class="name">First Name cannot be empty</label>  
+  <input type="text" placeholder="Last Name" class="last" name="last-name"> 
+  <label for="last-name" class="lastName">Last Name cannot be empty</label> 
+  <input type="email" placeholder="Email Address" class="email" name="email"> 
+  <label for="email" class="labelEmail">Looks like this is not an email</label>
+  <input type="password" placeholder=" Password" class="password" name="password"> 
+  <label for="password" class="labelPassword">Password cannot be empty</label>
  <br>
-  <button class="claim">Claim your free trial</button>  
+ <button class="claim">Claim your free trial</button>
+</form>
+    
  
    <h6>By clicking the button, you are agreeing to our <span>Terms and Services</span></h6>
  </div>
